@@ -637,11 +637,11 @@ static xmb_node_t *xmb_copy_node(const xmb_node_t *old_node)
 
 static float *xmb_gradient_ident(unsigned xmb_color_theme)
 {
-   static float gradient_golden[16]          = {
-      174/255.0, 123/255.0,  44/255.0, 1.0,
-      205/255.0, 174/255.0,  84/255.0, 1.0,
-      58/255.0,   43/255.0,  24/255.0, 1.0,
-      58/255.0,   43/255.0,  24/255.0, 1.0,
+   static float pink_rose[16]          = {
+      249/255.0, 176/255.0,  212/255.0, 1.0,
+      249/255.0, 176/255.0,  212/255.0, 1.0,
+      232/255.0,   108/255.0,  191/255.0, 1.0,
+      232/255.0,   108/255.0,  191/255.0, 1.0,
    };
    static float gradient_legacy_red[16]      = {
       171/255.0,  70/255.0,  59/255.0, 1.0,
